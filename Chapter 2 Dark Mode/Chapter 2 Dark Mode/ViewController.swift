@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        primaryLabel.textColor = UIColor.brandLabel
+        primaryLabel.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1) //UIColor.brandLabel
         secondaryLabel.textColor = UIColor.brandSecondaryLabel
         tertiaryLabel.textColor = UIColor.brandTertiaryLabel
         
